@@ -1,0 +1,35 @@
+{
+  "name": "inkrement/table2array",
+  "description": "convert html tables to arrays",
+  "keywords": [
+    "html",
+    "table"
+  ],
+  "homepage": "https://github.com/inkrement/table2array",
+  "authors": [
+    {
+      "name": "Christian Hotz-Behofsits",
+      "email": "chris.hotz.behofsits@gmail.com",
+      "homepage": "http://justrocketscience.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "symfony/dom-crawler": ">=2.6",
+    "symfony/css-selector": ">=2.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Inkrement\\Table2Array\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Inkrement\\Table2Array\\": "tests"
+    }
+  }
+}
